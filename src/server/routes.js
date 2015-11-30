@@ -12,9 +12,9 @@ var m = new mandrill.Mandrill('fRpV-9-cdN04u7RHKn9N4w');
 //Establish parameters here, refer to documentation to see all available parameters (there's a large amount)
 var params = {
     'message': {
-        'from_email':'robertcawbrush@gmail.com',
-        'to':[{'email':'robert.brush@briebug.com'}],
-        'subject': 'Sending a text email from the Mandrill API',
+        'from_email':'robert.brush@briebug.com',
+        'to':[{'email':'m8r-go9mnv@mailinator.com'}],
+        'subject': 'Hello from BrieBug Mandrill!',
         //this parameter can be html or text and is the actual message sent
         'html': 'This is an example email sent from MandrillPOC to show mandrill use',
         //this parameter will default to a text message if the users email service doesn't support html
